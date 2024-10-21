@@ -1,0 +1,25 @@
+[tool.poetry]
+package-mode = false
+name = "graph-rag"
+version = "0.1.0"
+description = "environnement pour utiliser le jupyter notebook"
+authors = ["FB"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0" 
+langchain-core = "^0.3.12"
+pydantic = "^2.9.2"
+langchain-community = "^0.3.3"
+langchain-text-splitters = "^0.3.0"
+langchain-experimental = "^0.3.2"
+neo4j = "^5.25.0"
+langchain-ollama = "^0.2.0"
+jupyter = "^1.1.1"
+yfiles-jupyter-graphs = "^1.8.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
