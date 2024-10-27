@@ -53,6 +53,10 @@ check the model is ready
 
     docker compose up
 
+Pour arrêter :
+
+    docker compose stop
+
 ### plugin APOC
 
 APOC (which stands for Awesome Procedures On Cypher) is a popular and widely-used plugin for Neo4j, the graph database. It extends the capabilities of Neo4j’s Cypher query language by adding a large collection of utility procedures and functions. These utilities make it easier to work with data, perform complex operations, and extend Neo4j’s functionality beyond what’s available out-of-the-box.
